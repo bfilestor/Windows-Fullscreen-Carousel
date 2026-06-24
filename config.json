@@ -45,25 +45,16 @@
   },
   "playlist": [
     {
-      "id": "pic-001-jpg",
+      "id": "image-1782288579717-0",
       "name": "001",
       "type": "image",
       "src": "E:\\work\\pic-screen\\pic\\001.jpg",
-      "duration": 10000,
-      "enabled": false,
-      "fitMode": "cover"
-    },
-    {
-      "id": "pic-003-jpg",
-      "name": "003",
-      "type": "image",
-      "src": "E:\\work\\pic-screen\\pic\\003.jpg",
       "duration": 10000,
       "enabled": true,
       "fitMode": "cover"
     },
     {
-      "id": "pic-0023-jpg",
+      "id": "image-1782288591947-0",
       "name": "0023",
       "type": "image",
       "src": "E:\\work\\pic-screen\\pic\\0023.jpg",
@@ -81,6 +72,15 @@
       "timeout": 15000,
       "cacheEnabled": true,
       "refreshMode": "reloadEveryTime"
+    },
+    {
+      "id": "image-1782288601366-0",
+      "name": "003",
+      "type": "image",
+      "src": "E:\\work\\pic-screen\\pic\\003.jpg",
+      "duration": 10000,
+      "enabled": true,
+      "fitMode": "cover"
     }
   ],
   "displayText": {

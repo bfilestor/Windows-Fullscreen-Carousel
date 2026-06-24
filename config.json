@@ -1,0 +1,91 @@
+{
+  "app": {
+    "autoStart": false,
+    "startFullscreen": true,
+    "kiosk": false,
+    "alwaysOnTop": true,
+    "hideCursor": true
+  },
+  "screen": {
+    "displayId": "primary",
+    "fallbackToPrimary": true
+  },
+  "playback": {
+    "loop": true,
+    "defaultDuration": 5000,
+    "defaultTransition": "fade",
+    "transitionDuration": 800,
+    "fitMode": "cover",
+    "skipErrorItem": true
+  },
+  "web": {
+    "defaultTimeout": 15000,
+    "cacheEnabled": true,
+    "cacheMode": "snapshot",
+    "cacheDir": "cache",
+    "maxCacheSizeMB": 500
+  },
+  "log": {
+    "enabled": true,
+    "level": "info",
+    "dir": "logs",
+    "keepDays": 30
+  },
+  "security": {
+    "exitPasswordEnabled": false,
+    "passwordHash": "",
+    "maxWrongAttempts": 5
+  },
+  "hotkeys": {
+    "exit": "CommandOrControl+Alt+Q",
+    "reload": "CommandOrControl+Alt+R",
+    "toggleFullscreen": "CommandOrControl+Alt+F",
+    "openConfig": "CommandOrControl+Alt+C",
+    "pauseOrResume": "CommandOrControl+Alt+P"
+  },
+  "playlist": [
+    {
+      "id": "pic-001-jpg",
+      "name": "001",
+      "type": "image",
+      "src": "E:\\work\\pic-screen\\pic\\001.jpg",
+      "duration": 10000,
+      "enabled": false,
+      "fitMode": "cover"
+    },
+    {
+      "id": "pic-003-jpg",
+      "name": "003",
+      "type": "image",
+      "src": "E:\\work\\pic-screen\\pic\\003.jpg",
+      "duration": 10000,
+      "enabled": true,
+      "fitMode": "cover"
+    },
+    {
+      "id": "pic-0023-jpg",
+      "name": "0023",
+      "type": "image",
+      "src": "E:\\work\\pic-screen\\pic\\0023.jpg",
+      "duration": 10000,
+      "enabled": true,
+      "fitMode": "cover"
+    },
+    {
+      "id": "url-1782261975758",
+      "name": "百度",
+      "type": "url",
+      "src": "https://baidu.com",
+      "duration": 9000,
+      "enabled": true,
+      "timeout": 15000,
+      "cacheEnabled": true,
+      "refreshMode": "reloadEveryTime"
+    }
+  ],
+  "displayText": {
+    "webLoading": "页面加载中...",
+    "emptyTitle": "主标题",
+    "emptySubtitle": "描述文字"
+  }
+}
